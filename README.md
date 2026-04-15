@@ -9,7 +9,7 @@
 [![Challenges](https://img.shields.io/badge/Challenges-23-orange?style=flat-square)]()
 [![Zero Dependencies](https://img.shields.io/badge/External%20Deps-Zero-red?style=flat-square)]()
 
-> A self-hosted, offline-first XSS training environment designed to take you from reflective basics to prototype pollution and DOM clobbering — no cloud accounts, no paywalls, no CTF gatekeeping.
+> A self-hosted, offline XSS training environment designed to take you from reflective basics to prototype pollution and DOM clobbering — no cloud accounts, no paywalls, no CTF gatekeeping.
 
 </div>
 
@@ -19,7 +19,7 @@
 
 Most XSS tutorials stop at `<script>alert(1)</script>`. This lab doesn't.
 
-ArtSec XSS Lab is a hands-on training environment with **23 deliberately vulnerable web pages**, each implementing a specific (and intentionally flawed) defense. Your goal is to bypass it. Every level is isolated, self-explanatory, and backed by a writeup that explains the root cause, the correct fix, and where this class of bug shows up in the real world.
+XSS Lab is a hands-on training environment with **23 deliberately vulnerable web pages**, each implementing a specific (and intentionally flawed) defense. Your goal is to bypass it. Every level is isolated, self-explanatory, and backed by a writeup that explains the root cause, the correct fix, and where this class of bug shows up in the real world.
 
 Built for:
 - 🛡️ **Security engineers** building threat modeling or secure code review skills
@@ -39,8 +39,6 @@ npm start
 ```
 
 Open **http://localhost:3000** in your browser (Chrome recommended).
-
-> **Docker user?** Community contributor [@Stealthcopter](https://github.com/Stealthcopter) added a Dockerfile — spin it up however you prefer.
 
 ---
 
