@@ -32,8 +32,8 @@ Built for:
 ## Quickstart
 
 ```bash
-git clone https://github.com/ArtSecTest/artsec-xss-labs.git
-cd artsec-xss-labs
+git clone https://github.com/HACKER-ZIYAD/Z1Y4D-xss-Lab
+cd Z1Y4D-xss-Lab
 npm install
 npm start
 ```
@@ -46,29 +46,29 @@ Open **http://localhost:3000** in your browser (Chrome recommended).
 
 | # | Name | Difficulty |
 |---|------|------------|
-| 01 | Hello, Reflected XSS | 🟢 Easy |
+| 01 | Reflected XSS-No Defenses | 🟢 Easy |
 | 02 | Stored XSS Guestbook | 🟢 Easy |
 | 03 | Script Tag Blocked | 🟡 Medium |
 | 04 | Attribute Injection | 🟡 Medium |
-| 05 | JavaScript Context | 🟡 Medium |
-| 06 | Event Handler Blocklist | 🔴 Hard |
-| 07 | Case & Keyword Filter | 🔴 Hard |
+| 05 | JavaScript Context injection | 🟡 Medium |
+| 06 | Event Handler Blocklis Bypass | 🔴 Hard |
+| 07 | Single-pass & Keyword Filter Bypass | 🔴 Hard |
 | 08 | DOM-Based XSS | 🔴 Hard |
-| 09 | href Injection with Filters | ⚫ Expert |
-| 10 | CSP Bypass | ⚫ Expert |
+| 09 | href Injection with Filters Bypass | ⚫ Expert |
+| 10 | CSP Bypass via jsonp | ⚫ Expert |
 | 11 | Double Encoding Bypass | ⚫ Expert |
 | 12 | Client-Side Template Injection | ⚫ Expert |
 | 13 | postMessage XSS | ⚫ Expert |
 | 14 | SVG Upload XSS | ⚫ Expert |
-| 15 | Mutation XSS | ⚫ Expert |
+| 15 | Mutation XSS- Template Blind Spot | ⚫ Expert |
 | 16 | Recursive Keyword Filter | ⚫ Expert |
-| 17 | The Polyglot | ⚫ Expert |
+| 17 | CSP strict dynamic Bypass | ⚫ Expert |
 | 18 | DOM Clobbering | ⚫ Expert |
-| 19 | Prototype Pollution to XSS | ⚫ Expert |
-| 20 | Base Tag Injection | ⚫ Expert |
-| 21 | Dangling Markup Injection | ⚫ Expert |
+| 19 | Prototype Pollution  XSS | ⚫ Expert |
+| 20 | Trusted Types Bypass| ⚫ Expert |
+| 21 | Dangling Markup Injection CSRF leak | ⚫ Expert |
 | 22 | JSON Injection in Script Block | ⚫ Expert |
-| 23 | URL Scheme Bypass | ⚫ Expert |
+| 23 | URL Scheme Bypass via entity encoding | ⚫ Expert |
 
 **Levels 1–8** cover the foundational injection contexts: reflected, stored, DOM-based, attribute, and JavaScript sinks.  
 **Levels 9–17** introduce intermediate techniques: CSP bypasses, encoding tricks, template injection, and mutation XSS.  
@@ -139,6 +139,6 @@ Found a bug, have an idea for a new challenge, or want to add a Docker Compose c
 
 <div align="center">
 
-**Built by [ArtSec](https://github.com/ArtSecTest) · Hack responsibly.**
+**Built by [Z1Y4D](https://github.com/HACKER-ZIYAD/) · Hack responsibly.**
 
 </div>
